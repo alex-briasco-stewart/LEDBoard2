@@ -59,12 +59,12 @@ static char VERSION[] = "testing...";
 #define TARGET_FREQ                              WS2811_TARGET_FREQ
 #define GPIO_PIN                                 18
 #define DMA                                      5
-#define STRIP_TYPE				                 WS2811_STRIP_RGB		// WS2812/SK6812RGB integrated chip+leds
-//#define STRIP_TYPE				             WS2811_STRIP_GBR		// WS2812/SK6812RGB integrated chip+leds
+//#define STRIP_TYPE				                 WS2811_STRIP_RGB		// WS2812/SK6812RGB integrated chip+leds
+#define STRIP_TYPE				             WS2812_STRIP		// WS2812/SK6812RGB integrated chip+leds
 //#define STRIP_TYPE				             SK6812_STRIP_RGBW		// SK6812RGBW (NOT SK6812RGB)
 
-#define WIDTH                                    8
-#define HEIGHT                                   8
+#define WIDTH                                    240
+#define HEIGHT                                   1
 #define LED_COUNT                                (WIDTH * HEIGHT)
 
 int width = WIDTH;
